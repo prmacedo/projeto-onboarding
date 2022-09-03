@@ -1,5 +1,11 @@
 #finish {
   .content > a {
     margin-bottom: 3.8125rem;
+    @media (width: 280px) {
+      margin-bottom: 2.625rem;
+    }
+    @media (width: 540px) {
+      margin-bottom: 2.625rem;
+    }
   }
 }

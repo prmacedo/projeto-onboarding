@@ -6,6 +6,15 @@
   justify-content: center;
   margin: 4rem 0;
   gap: 1rem;
+
+  @media (width: 280px) {
+    margin: 2rem 0;
+  }
+
+  @media (width: 540px) {
+    margin: 2rem 0;
+  }
+
   span {
     display: block;
     height: 0.75rem;
