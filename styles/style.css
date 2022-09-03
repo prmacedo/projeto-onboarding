@@ -93,4 +93,8 @@ body {
 }
 .btn:hover {
   background-color: #7BBF8E;
+}
+
+#finish .content > a {
+  margin-bottom: 3.8125rem;
 }/*# sourceMappingURL=style.css.map */
