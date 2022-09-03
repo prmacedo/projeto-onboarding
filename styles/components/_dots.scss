@@ -1,0 +1,26 @@
+@import "../abstract/variables";
+
+.dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+  gap: 1rem;
+  span {
+    display: block;
+    height: 0.75rem;
+    width: 0.75rem;
+    border: 1px solid $black;
+    border-radius: 50%;
+    &.active {
+      background-color: $primary;
+      border-color: $primary;
+    }
+    &:hover:not(.active) {
+      background-color: $primary;
+      border-color: $primary;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+}
